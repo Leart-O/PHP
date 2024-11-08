@@ -21,7 +21,7 @@ try {
 
     echo "Table Created";
 
-    //Alter TABLE AND ADD COLUMNS
+    // Alter TABLE AND ADD COLUMNS
 
     $sqalter  = 'ALTER TABLE singers
                 ADD COLUMN password VARCHAR(30) NOT NULL';
@@ -32,7 +32,7 @@ try {
     $dropsql = 'ALTER TABLE singers DROP COLUMN email';
     $pdo->exec($dropsql);
 
-    //add data to table
+    // add data to table
 
     $username = "Blerta";
     $email = "blerta@gmail.com";
