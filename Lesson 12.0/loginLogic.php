@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
         $insertSQL->execute();
 
         if($tempSQL->rowCount() > 0){
-            $sql = $insertSQL->fetch()
+            $sql = $insertSQL->fetch();
         }
     }
 }
