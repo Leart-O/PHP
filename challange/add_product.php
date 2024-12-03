@@ -32,7 +32,7 @@ if (isset($_POST['add_product'])) {
 
 
 
-  $sql = "INSERT INTO products (name, description, price, stock_quantity) VALUES ($name, $description, $price, $stock_quantity)";
+  $sql = "INSERT INTO products (name, description, price, stock_quantity) VALUES (?, ?, ?, ?)";
 
   $stmt = $pdo->prepare($sql);
 
