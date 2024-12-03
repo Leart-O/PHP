@@ -42,7 +42,7 @@ if (isset($_POST['add_product'])) {
 
   echo "Product added successfully!";
 
-  echo"<br>";
+  echo"<br>"
 
   echo "<a href=dashboard.php>Check Out the products</a>";
 
